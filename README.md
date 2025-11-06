@@ -1,4 +1,4 @@
-# finance_charbot_granitellm
+# finance_chatbot_granitellm
 # Personal Finance Chatbot (IBM Granite 3.2 LLM)
 
 An AI-powered personal finance assistant built using Streamlit and IBM Granite 3.2 (2B Instruct LLM) for local inference.  
