@@ -54,15 +54,15 @@ It suggests methods like the snowball or avalanche strategy and how to optimize 
 
 1. Clone the Repository
 bash
-  git clone https://github.com/<your-username>/personal-finance-chatbot.git
-  cd personal-finance-chatbot
+git clone https://github.com/<your-username>/personal-finance-chatbot.git
+cd personal-finance-chatbot
 
-2. Create and Activate Virtual Environment
+3. Create and Activate Virtual Environment
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 
-3. Install Dependencies
+4. Install Dependencies
 pip install -r requirements.txt
 
 
