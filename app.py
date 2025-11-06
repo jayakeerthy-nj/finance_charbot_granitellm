@@ -75,7 +75,7 @@ def load_model():
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(
             model_name, 
-            dtype=torch.bfloat16
+            dtype=torch.float16
         )
         device = "cuda" if torch.cuda.is_available() else "cpu"
         model.to(device)
@@ -180,7 +180,7 @@ Assistant:"""
         with torch.no_grad():
             outputs = model.generate(
                 **inputs,
-                max_new_tokens=400,
+                max_new_tokens=150,
                 temperature=0.7,
                 top_p=0.95,
                 do_sample=True,
