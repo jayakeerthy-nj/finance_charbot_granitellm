@@ -45,7 +45,7 @@ It suggests methods like the snowball or avalanche strategy and how to optimize 
 | Model | IBM Granite 3.2 (2B Instruct) |
 | Framework | Hugging Face Transformers |
 | Inference Type | Local (CPU / GPU Supported) |
-| Precision | bfloat16 |
+| Precision | float16 |
 | Pipeline | text-generation |
 
 ---
